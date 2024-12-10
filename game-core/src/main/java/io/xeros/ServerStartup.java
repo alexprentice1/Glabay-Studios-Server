@@ -52,7 +52,6 @@ import org.slf4j.LoggerFactory;
 
 import java.nio.file.Path;
 
-import static com.ConstantsKt.REV;
 
 /**
  * Stuff to do on startup.
@@ -60,6 +59,8 @@ import static com.ConstantsKt.REV;
  * @author Michael Sasse (<a href="https://github.com/mikeysasse/">GitHub</a>)
  */
 public class ServerStartup {
+
+    private static final Integer REV = 226;
 
     private static final Logger logger = LoggerFactory.getLogger(ServerStartup.class);
 
